@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function AutoCarousel({ items, interval = 3000 }) {
+function AutoCarousel({ items, interval = 500 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
