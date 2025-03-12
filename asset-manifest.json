@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hannyahankz/static/css/main.49f5196b.css",
-    "main.js": "/hannyahankz/static/js/main.65181a4d.js",
+    "main.css": "/hannyahankz/static/css/main.d5432f32.css",
+    "main.js": "/hannyahankz/static/js/main.1de69635.js",
     "static/js/453.e3516c29.chunk.js": "/hannyahankz/static/js/453.e3516c29.chunk.js",
     "static/media/whiteFlower.png": "/hannyahankz/static/media/whiteFlower.9e4954cf56468f5e8674.png",
     "static/media/gaicha.png": "/hannyahankz/static/media/gaicha.ca34e2e3393c1ffea70c.png",
     "static/media/Snapseed.jpg": "/hannyahankz/static/media/Snapseed.00f7a0c21cbac3f6b668.jpg",
     "static/media/Logo.png": "/hannyahankz/static/media/Logo.ad571379e24a9eaab46f.png",
     "index.html": "/hannyahankz/index.html",
-    "main.49f5196b.css.map": "/hannyahankz/static/css/main.49f5196b.css.map",
-    "main.65181a4d.js.map": "/hannyahankz/static/js/main.65181a4d.js.map",
+    "main.d5432f32.css.map": "/hannyahankz/static/css/main.d5432f32.css.map",
+    "main.1de69635.js.map": "/hannyahankz/static/js/main.1de69635.js.map",
     "453.e3516c29.chunk.js.map": "/hannyahankz/static/js/453.e3516c29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49f5196b.css",
-    "static/js/main.65181a4d.js"
+    "static/css/main.d5432f32.css",
+    "static/js/main.1de69635.js"
   ]
 }
