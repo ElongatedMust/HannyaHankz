@@ -6,6 +6,7 @@ const Navbar = () => {
     <div className="navbar">
       <img src={Logo} alt="" className="logo" />
       <p className="compName">HannyaHankz</p>
+      <p className="madeIn">- made in Canada</p>
     </div>
   );
 };

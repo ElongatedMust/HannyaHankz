@@ -1,14 +1,13 @@
 @import "/src/variables/fonts.scss";
 body {
-  background-color: #a78e56;
-
+  background-color: var(--background-color);
+  background-image: var(--background-image);
   .container {
-    height: 100vh; /* full viewport height */
+    height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scroll-padding-top: 100px;
 
-    background-color: #a78e56;
     .imgLander {
       width: 100%;
       height: 830px;
@@ -22,29 +21,36 @@ body {
       background-color: #595434;
       padding: 20px;
       margin: 100px;
-      margin-left: 160px;
+      align-items: center;
       width: 1000px;
-      height: 650px;
+      height: 600px;
       box-shadow: 0 0 10px 5px #443618;
       border-radius: 8px;
       scroll-snap-align: start;
 
-      .aboutMeHeader {
-        color: #a78e56;
-        font-size: 1.5rem;
-        font-weight: 500;
-        font-family: var(--main-font);
+      .headerNText {
+        padding: 20px;
+
+        .aboutMeHeader {
+          color: #a78e56;
+          font-size: 30px;
+          font-weight: 500;
+          text-align: left;
+
+          font-family: var(--main-font);
+        }
+        .aboutMeText {
+          color: #a78e56;
+          font-size: 28px;
+          font-weight: 500;
+          text-align: left;
+          font-family: var(--main-font);
+          width: 800px;
+          max-width: 700px;
+          margin-right: 50px;
+        }
       }
-      .aboutMeText {
-        color: #a78e56;
-        font-size: 28px;
-        font-weight: 500;
-        text-align: left;
-        font-family: var(--main-font);
-        width: 800px;
-        max-width: 600px;
-        margin-right: 50px;
-      }
+
       .gaichaImg {
         height: 600px;
         width: 500px;
@@ -55,10 +61,20 @@ body {
       }
     }
 
-    .galleryHeader {
-      background-color: #a78e56;
-      width: 100px;
-      height: 50px;
+    .gallerySection {
+      .galleryTitle {
+        scroll-snap-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: var(--main-font);
+        color: var(--mask-green);
+        font-size: 100px;
+        margin-top: 150px;
+      }
+      .firstHank { 
+        height: 5000px;
+      }
     }
   }
 }
